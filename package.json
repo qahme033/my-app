@@ -27,7 +27,10 @@
     "eject": "react-scripts eject"
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": ["npm run format", "npm run lint"],
+    "src/**/*.{ts,tsx}": [
+      "npm run format",
+      "npm run lint"
+    ],
     "src/**/*.scss": "npm run style-lint"
   },
   "jest": {
@@ -57,5 +60,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "lint-staged": "^13.0.3"
   }
 }
